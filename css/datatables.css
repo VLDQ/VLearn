@@ -1,0 +1,29 @@
+@media (min-width: 767px) {
+    #table1_length, #table2_length, #table3_length, #table4_length, #table5_length, #table6_length, #table7_length, #table8_length, #table9_length, #table10_length, #table11_length, #table12_length, #table13_length, #table14_length, #table15_length, #table16_length, #table17_length, #table18_length, #table19_length, #table20_length, #table21_length, #table22_length {
+        left: auto;
+        position: absolute;
+    }
+
+    #table1_info, #table2_info, #table3_info, #table4_info, #table5_info, #table6_info, #table7_info, #table8_info, #table9_info, #table10_info, #table11_info, #table12_info, #table13_info, #table14_info, #table15_info, #table16_info, #table17_info, #table18_info, #table19_info, #table20_info, #table21_info, #table22_info {
+        left: auto;
+        position: absolute;
+    }
+}
+
+@media (max-width: 767px) {
+    #table1_length, #table2_length, #table3_length, #table4_length, #table5_length, #table6_length, #table7_length, #table8_length, #table9_length, #table10_length, #table11_length, #table12_length, #table13_length, #table14_length, #table15_length, #table16_length, #table17_length, #table18_length, #table19_length, #table20_length, #table21_length, #table22_length {
+        margin-bottom: 10px;
+    }
+}
+
+.pagination {
+    --bs-pagination-active-bg: #0066cc;
+    --bs-pagination-active-border-color: #0066cc;
+    --bs-pagination-color: #0066cc;
+}
+
+#table1_filter .form-control, #table1_filter .form-control-sm, #table2_filter .form-control, #table2_filter .form-control-sm, #table3_filter .form-control, #table3_filter .form-control-sm, #table4_filter .form-control, #table4_filter .form-control-sm, #table5_filter .form-control, #table5_filter .form-control-sm, #table6_filter .form-control, #table6_filter .form-control-sm, #table7_filter .form-control, #table7_filter .form-control-sm, #table8_filter .form-control, #table8_filter .form-control-sm, #table9_filter .form-control, #table9_filter .form-control-sm, #table10_filter .form-control, #table10_filter .form-control-sm, #table11_filter .form-control, #table11_filter .form-control-sm, #table12_filter .form-control, #table12_filter .form-control-sm, #table13_filter .form-control, #table13_filter .form-control-sm, #table14_filter .form-control, #table14_filter .form-control-sm, #table15_filter .form-control, #table15_filter .form-control-sm, #table16_filter .form-control, #table16_filter .form-control-sm, #table17_filter .form-control, #table17_filter .form-control-sm, #table18_filter .form-control, #table18_filter .form-control-sm, #table19_filter .form-control, #table19_filter .form-control-sm, #table20_filter .form-control, #table20_filter .form-control-sm, #table21_filter .form-control, #table21_filter .form-control-sm, #table22_filter .form-control, #table22_filter .form-control-sm {
+    border: 1px solid #ced4da;
+    height: auto;
+    margin-top: 0px;
+}
